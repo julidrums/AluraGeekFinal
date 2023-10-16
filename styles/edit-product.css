@@ -1,0 +1,123 @@
+.todos-los-productos{
+  padding-left: 15px;
+}
+
+
+.productos-editar {
+   
+        padding-left: 15px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+         margin-bottom: 20px;
+       }  
+  
+
+
+
+    .iconos  {
+    font-size: 24px;
+    margin-top: 10px;
+ 
+ 
+}   
+
+button .edit-icon,
+button .delete-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    
+ /* Cambia el color de los íconos según tu diseño */
+    cursor: pointer; 
+}  
+
+.titulo-productos{
+color: #464646;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.todosBtn-productos{
+    background: #2A7AE4;
+  
+display: flex;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+
+
+.product-name-e{
+    color: #464646;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .precio-e {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+.img-producto-e {
+  display: grid;
+  width: 160px;
+  height: 158px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0; /* Borde sólido */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: transform 0.2s ease-in-out; /
+  } 
+
+  .img-producto:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+  }
+
+
+  @media(min-width:768px){
+    .todos-los-productos{
+      padding-left: 20px;
+    }
+
+    .productos-editar {
+       padding-left: 30px;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 20px; 
+      margin-bottom: 20px;
+     }
+   }
+
+   
+  @media(min-width:1268px){ 
+
+    .todos-los-productos{
+      padding-left: 20px;
+    }
+
+    .productos-editar {
+       padding-left: 30px;
+       display: grid;
+       grid-template-columns: repeat(6, 1fr);
+       gap: 15px; 
+       margin-bottom: 20px;
+     }
+   }
+
+  
+

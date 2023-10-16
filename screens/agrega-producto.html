@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200;400;700&family=Prata&family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/add-producto.css">
+    
+    <title>Agrega Producto</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+    <img class="control" src="../assets/sports_esports_black_24dp 1.png" alt="logo">
+    <a href="./index.html">
+    <img class="alura-texto" src="../assets/Texto.png" alt="texto logo">
+  </a>
+</div>
+
+<div class="search-container">
+  <input type="text" class="search-input" placeholder="Search...">
+  
+</div>
+<a href="../screens/login.html"><button class="login">LOGIN</button></a>
+    <img src="../assets/Icone.png" alt="lupa">
+ </header>    
+
+ <main>
+    <section class="login-page">
+      <div class="login_title">Agrega Nuevo producto</div>
+      <form action="#" class="form-cadastro" data-form>
+        <input
+          class="product-add_input__url"
+          type="url"
+          placeholder="Escriba la URL de la imagen"
+          required
+          data-url
+        />
+        <input
+          class="product-add_input__name"
+          type="name"
+          placeholder="Escriba el nombre del producto"
+          required
+          data-name
+        />
+        <input
+        class="product-add_input__price"
+        type="number"
+        placeholder="Escriba el precio del producto"
+        required
+        data-price
+      />
+        <textarea 
+        class="descripcion" 
+        type="text"
+        placeholder="Descripcion del producto"
+        rows="6" 
+        cols="40"
+        data-descripcion
+        ></textarea>
+    
+
+        <a href="../screens/todosLosProductos.html"><button type="submit" class="add_btn-page">Agregar producto</button></a>
+      </form>
+    </section>
+  </main>
+
+
+ 
+ 
+  <footer>
+    <div class="logo-links">
+      <div class="logo-footer">
+          <img src="..//assets/sports_esports_black_24dp 1.png" alt="control">
+          <img src="../assets/Texto (1).png" alt="texto">
+      </div>
+  
+      <div class="links-utiles">
+          <a href="">Quienes somos</a>
+          <a href="">Política de Privacidad</a>
+          <a href="">Programa de fidelidad</a>
+          <a href="">Nuestras Tiendas</a>
+          <a href="">Quiero ser franquiciado</a>
+          <a href="">Anuncie aquí</a>
+        </div>
+      </div>
+  
+        <div class="form">
+          <h1 class="titulo-form">Hable con Nosotros</h1>
+          <form action="#" method="post">
+              <div class="campos-texto">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="8" placeholder="Escribe tu mensaje aquí" required></textarea>
+          </div>
+          <button class="enviar-mensaje">Enviar Mensaje</button>
+  
+        </div>
+  
+  
+  </footer>
+  
+
+</section>
+<section class="rodapie">
+<p>&copy; Desarrollado por Julian Ortegon<br>2023</p>
+
+
+</section>
+<script type="module" src="../controllers/crea-productos-controller.js"></script>
+</body>
+</html>

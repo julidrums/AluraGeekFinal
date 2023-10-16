@@ -1,0 +1,42 @@
+{
+  "productos": [
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "$16",
+      "id": 7,
+      "description": "Funko Flash"
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "$25",
+      "id": 16,
+      "description": "25"
+    },
+    {
+      "name": "Batman",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "price": "$60",
+      "id": 17
+    },
+    {
+      "name": "goku",
+      "imageUrl": "https://elcomercio.pe/resizer/-ff-6d9vg7CILcQh-WvejY7_3lQ=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/6FUBT6XQXNHHNFOMCHIT7I34NA.jpg",
+      "price": "30",
+      "id": 21
+    },
+    {
+      "name": "freezer",
+      "imageUrl": "https://i1.sndcdn.com/artworks-n9Qcwh0jIrebrMRU-M0Glrw-t500x500.jpg",
+      "price": "80",
+      "id": 22
+    },
+    {
+      "name": "monstruo",
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "price": "60",
+      "id": 23
+    }
+  ]
+}
