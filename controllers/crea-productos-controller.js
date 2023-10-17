@@ -1,5 +1,6 @@
 import { productoServices } from "../servicios/producto-servicios.js";
 
+
 const form = document.querySelector("[data-form]");
 
 form.addEventListener("submit", (evento) => {
@@ -10,7 +11,7 @@ form.addEventListener("submit", (evento) => {
   const precio = document.querySelector("[data-price]").value;
 
   productoServices
-    .creaProdutos(nombre, url, precio)
+    .creaProductosFirebase(nombre, url, precio)
     .then((respuesta) => {
       window.location.href = "../screens/index.html";
       console.log(respuesta);

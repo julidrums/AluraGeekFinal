@@ -21,7 +21,8 @@ const productosI = document.querySelector("[data-product]");
 
 const render = async () => {
   try {
-    const listaProductos = await productoServices.listaProductos();
+    const listaProductos = await productoServices.listarProductosFireBase();
+    console.log(listaProductos)
     listaProductos.forEach((elemento) => {
       productosI.appendChild(
         nuevoProducto(

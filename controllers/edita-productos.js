@@ -49,7 +49,7 @@ productos.addEventListener("click", async (evento) => {
 
 const render = async () => {
   try {
-    const listaProductos = await productoServices.listaProductos();
+    const listaProductos = await productoServices.listarProductosFireBase();
 
     listaProductos.forEach((producto) => {
       productos.appendChild(
